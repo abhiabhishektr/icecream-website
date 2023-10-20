@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  nav {
+    height: 80px;
+    display: flex;
+}    
+.navbar-nav{
+   justify-content: center;
+   align-items: center;
+}
+.topp{
+    margin: 0 6%;
+}
+.social-media-total{
+    margin-right: 10%;
+}
+.b1{
+    color: #343a40 !important;
+    
+}
+nav a , nav li{
+    color: white;
+}
+
+.social-media-total {
+    display: flex;
+    gap: 15px; 
+    list-style: none;
+    right: 0;
+}
+
+.social-media-total .fa-brands {
+    font-size: 20px;
+    color: #333; 
+  padding-top: 5px;
+}
+.navbar-logo{
+    height: 45px;
+    width: 200px;
+
+}
+.foot-logo{
+    height: 45px;
+    width: 200px;
+
+}
+.section-1{
+    
+    background-color: #9c4041;
+    margin-top: -100px;
+}
+.section-2{
+    background-color: #9c4041;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.section-2-content{
+    color: white;
+    padding-top: 15%;
+}
+.se2{
+    background-color: #9c4041;  
+    padding: 0 80px;
+
+}
+.dropdown-menu dropdown-item{
+    background-color: white;
+}
+.foot{
+    padding: 50px 80px;
+    background-color: #343a40;
+    color: white;
+}
+.navbar-brand img , .first {
+height: 45px;
+width: 169px;
+
+}
+
+.social-media-total{
+    position: absolute;
+    right: 0;
+}
+.navbut{
+    position: relative;
+    right: 500px;
+}
+ul ,.text-waring {
+    color: #bc9e33;
+    list-style: none;
+    
+}
+ h2{
+    color: #967e27c8;
+}
+
+
+.footup {
+    padding: 50px 80px;
+    background-color: #343a40;
+    color: white;
+}
+
+.footsub {
+   width: 80%;
+
+}
+
+.footsub2{
+    width: 80%;
+    align-items: center;
+    margin-left: 75%;
+    
+}
+
+
+
+
+
+@media (max-width: 993px) {
+    
+.row {
+  text-align: center;
+}   
+.navbar-toggler{
+    position:relative;
+    right: 265px;
+}
+
+}
+@media (max-width: 769px) {
+    
+    .row {
+      text-align: center;
+    }   
+   .social-media-total{
+    visibility: hidden;
+   }
+   .navbar-toggler{
+    position: relative;
+    left: 3px;
+   }
+   fa-bars{
+    position: absolute;
+    top: 8px;
+    right: 17px;
+}
+
+
+}
+   .fa-bars{
+    position: absolute;
+    top: 8px;
+    right: 17px;
+    
+   } 
+.forhover:hover{
+    opacity: .5
+}
